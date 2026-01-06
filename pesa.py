@@ -13,13 +13,14 @@ output_dir = "clickpesa_docs"
 os.makedirs(output_dir, exist_ok=True)
 
 try:
-    print("Downloading ZIP file...")
+    print("Downloading a ZIP file...")
     response = requests.get(url)
     response.raise_for_status()
 
     with zipfile.ZipFile(io.BytesIO(response.content)) as zip_ref:
         zip_ref.extractall(output_dir)
-        print(f"✅ Done! Files extracted to '{output_dir}'")
+        print(f"✅ Done! Files are extracted to '{output_dir}'")
 
 except Exception as e:
     print("❌ Error:", e)
+    print("Just testing git rebase conflicts and changes.")

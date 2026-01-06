@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+just brabraaaa
+Just having Small changes here
+=======
 /mybrandname
 ├── /frontend
 │   ├── /src
@@ -21,3 +25,4 @@
 │   └── package.json           # Lists backend project dependencies, scripts, and metadata for Node.js
 │
 └── README.md
+>>>>>>> master

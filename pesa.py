@@ -23,4 +23,4 @@ try:
 
 except Exception as e:
     print("❌ Error:", e)
-    print("Just testing git rebase changes")
+    print("Just testing git rebase conflicts and changes.")
